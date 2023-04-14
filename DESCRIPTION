@@ -1,0 +1,14 @@
+Package: GeorgeTree
+Type: Package
+Title: Classification and Regression Trees
+Version: 0.1.0
+Author: Chenliang Cao
+Maintainer: Chenliang Cao <gc3613@rit.edu>
+Description: This package provides functions for performing Classification and Regression Trees using the 'rpart' package. The package includes functions for fitting and learning, prediction, and performance evaluation with tables and plots.
+    The package also allows users to select different parameters for tuning.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rpart,rpart.plot
+RoxygenNote: 7.2.3

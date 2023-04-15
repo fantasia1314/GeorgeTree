@@ -26,4 +26,5 @@ data(mtcars)
 x <- mtcars[, -1]
 y <- mtcars$mpg
 reg_tree <- regression_tree(x, y)
+summary(reg_tree)
 }

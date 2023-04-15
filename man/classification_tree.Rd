@@ -26,4 +26,5 @@ data(iris)
 x <- iris[, -5]
 y <- iris$Species
 class_tree <- classification_tree(x, y)
+summary(class_tree)
 }

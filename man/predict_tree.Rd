@@ -25,4 +25,5 @@ x <- mtcars[, -1]
 y <- mtcars$mpg
 reg_tree <- regression_tree(x, y)
 predictions <- predict_tree(reg_tree, x)
+print(predictions)
 }

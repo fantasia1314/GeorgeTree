@@ -15,6 +15,7 @@
 #' y <- mtcars$mpg
 #' reg_tree <- regression_tree(x, y)
 #' predictions <- predict_tree(reg_tree, x)
+#' print(predictions)
 predict_tree <- function(tree, newdata, ...) {
   if (!inherits(tree, "rpart")) {
     stop("tree must be a fitted rpart object")

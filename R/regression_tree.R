@@ -15,6 +15,7 @@
 #' x <- mtcars[, -1]
 #' y <- mtcars$mpg
 #' reg_tree <- regression_tree(x, y)
+#' summary(reg_tree)
 regression_tree <- function(x, y, control = rpart::rpart.control(), ...) {
   if (!inherits(x, "data.frame")) {
     stop("x must be a data.frame")
